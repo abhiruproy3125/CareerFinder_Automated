@@ -9,7 +9,7 @@ API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-0d8de3fecd65465991f3c0d335739a36")
 
 client = OpenAI(
     base_url='https://api.groq.com/openai/v1',
-    api_key='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', # Put your gsk_ key here
+    api_key='IP', # Put your gsk_ key here
 )
 
 # Use their DeepSeek Distill model (much smarter than the 1.5B version!)
