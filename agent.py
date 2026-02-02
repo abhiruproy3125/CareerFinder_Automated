@@ -62,7 +62,7 @@ jobs = scrape_jobs(
     site_name=["linkedin","indeed"],
     search_term='("SLAM" OR "Simultaneous Localization and Mapping" OR "Robotics") AND "C++"',
     location="Germany",
-    results_wanted=5,
+    results_wanted=10,
     hours_old=24,
     linkedin_fetch_description=True
 )
